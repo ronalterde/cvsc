@@ -1,0 +1,6 @@
+[submodule "coreutils"]
+	path = coreutils
+	url = https://github.com/coreutils/coreutils
+[submodule "demo_project"]
+	path = demo_project
+	url = https://github.com/ronalterde/demo_project.git
