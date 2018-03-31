@@ -32,3 +32,4 @@ if __name__ == "__main__":
     cvsc.create_plot(plot_data)
     print('Saving to ' + OUTPUT_FILE)
     pyplot.savefig(OUTPUT_FILE, dpi=90)
+    pyplot.show()

@@ -15,3 +15,4 @@ if __name__ == "__main__":
     pyplot.xlim(xmin=-1, xmax=10)
     print('Saving to ' + OUTPUT_FILE)
     pyplot.savefig(OUTPUT_FILE, dpi=90)
+    pyplot.show()
