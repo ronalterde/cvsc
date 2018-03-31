@@ -38,7 +38,8 @@ def collect_plot_data(root, file_list, analyzer):
     for file_path in file_list:
         commit_count = GitLog(root, file_path).get_commit_count()
         ccn = analyzer.determine_ccn(os.path.join(root, file_path))
-        print('File: {},\tCommits: {:d}\tCCN: {}'.format(file_path, commit_count, ccn))
+        print('File: {},\tCommits: {:d}\tCCN: {}'.format(
+            file_path, commit_count, ccn))
         result['file'].append(file_path)
         result['commit_count'].append(commit_count)
         result['ccn'].append(ccn)

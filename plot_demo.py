@@ -10,7 +10,8 @@ if __name__ == "__main__":
                  'demo1.cpp',
                  'demo2.cpp']
 
-    plot_data = cvsc.collect_plot_data('demo_project', file_list, cvsc.LizardAnalyzer)
+    plot_data = cvsc.collect_plot_data(
+            'demo_project', file_list, cvsc.LizardAnalyzer)
     cvsc.create_plot(plot_data)
     pyplot.xlim(xmin=-1, xmax=10)
     print('Saving to ' + OUTPUT_FILE)
