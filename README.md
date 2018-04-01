@@ -1,3 +1,6 @@
+# Sample code for the blog article *Discovering Refactoring Needs*
+[link to blog](http://steffen.ronalter.de/2018/04/01/discovering-refactoring-needs/)
+
 ## Prerequisites
 Get GNU coreutils and demo repositories (for the examples)
 ```
